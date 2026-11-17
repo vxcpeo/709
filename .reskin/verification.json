@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T17:53:19.990Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/709/website",
+    "name": "tranova-web",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": false,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "attributes: added \"name=arrow\"",
+        "attributes: added \"name=arrow-left\"",
+        "attributes: added \"name=arrow-right\"",
+        "attributes: added \"name=check\"",
+        "attributes: added \"name=close\"",
+        "attributes: added \"name=copy\"",
+        "attributes: added \"name=download\"",
+        "attributes: added \"name=external\"",
+        "attributes: added \"name=layers\"",
+        "attributes: added \"name=loader\"",
+        "attributes: added \"name=logout\"",
+        "attributes: added \"name=menu\"",
+        "attributes: added \"name=plus\"",
+        "attributes: added \"name=radio\"",
+        "attributes: added \"name=refresh\"",
+        "attributes: added \"name=shield\"",
+        "attributes: added \"name=wallet\"",
+        "bindings: added \"attr:active.glyph\"",
+        "bindings: added \"attr:link.glyph\"",
+        "bindings: added \"attr:product.glyph\"",
+        "bindings: added \"attr:type.glyph\"",
+        "bindings: added \"form:active.glyph\"",
+        "bindings: added \"form:link.glyph\"",
+        "bindings: added \"form:product.glyph\"",
+        "bindings: added \"form:type.glyph\""
+      ],
+      "hash": "2812cb9ef55c718b0c30956bfd081509c9a73bed845a976e3c46bf2462f0127c"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "sidebar-workspace",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": false,
+          "bento": false,
+          "ticker": false,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "orbital",
+        "family": "spatial",
+        "traits": {
+          "sidebar": true,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": true,
+          "terminal": true,
+          "bento": false,
+          "ticker": false,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#b9382b",
+        "current": "#40b3ff",
+        "deltaE": 105.73,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.277,
+          "landmarkSimilarity": 0.4,
+          "classOverlap": 0.047
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 14,
+              "total": 24
+            },
+            "current": {
+              "tokens": 14,
+              "total": 24
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      },
+      {
+        "route": "/create",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "aria attribute added: aria-label=Set cliff",
+          "aria attribute added: aria-label=Set end",
+          "mobile nav: 4 baseline target(s) no longer visible (/create, /locks, /docs)"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.28,
+          "landmarkSimilarity": 0.571,
+          "classOverlap": 0.031
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 16,
+              "total": 24
+            },
+            "current": {
+              "tokens": 16,
+              "total": 24
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [
+            "mobile nav: 4 baseline target(s) no longer visible (/create, /locks, /docs)"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/create-desktop.png",
+          "mobile": "current/create-mobile.png"
+        }
+      },
+      {
+        "route": "/docs",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.191,
+          "landmarkSimilarity": 0.571,
+          "classOverlap": 0.034
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 11,
+              "total": 16
+            },
+            "current": {
+              "tokens": 11,
+              "total": 16
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/docs-desktop.png",
+          "mobile": "current/docs-mobile.png"
+        }
+      },
+      {
+        "route": "/documents/brand-kit.zip",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "load error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/documents/brand-kit.zip\", waiting until \"domcontentloaded\"\u001b[22m\n",
+          "desktop capture missing",
+          "mobile capture missing"
+        ],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 0,
+              "total": 0
+            },
+            "current": {
+              "tokens": 0,
+              "total": 0
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "load error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/documents/brand-kit.zip\", waiting until \"domcontentloaded\"\u001b[22m\n",
+            "desktop capture missing",
+            "mobile capture missing"
+          ],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {}
+      },
+      {
+        "route": "/documents/business-plan.pdf",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 0,
+              "total": 0
+            },
+            "current": {
+              "tokens": 0,
+              "total": 0
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/documents-business-plan-pdf-desktop.png",
+          "mobile": "current/documents-business-plan-pdf-mobile.png"
+        }
+      },
+      {
+        "route": "/documents/contracts.md",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 29,
+              "total": 53
+            },
+            "current": {
+              "tokens": 29,
+              "total": 53
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/documents-contracts-md-desktop.png",
+          "mobile": "current/documents-contracts-md-mobile.png"
+        }
+      },
+      {
+        "route": "/documents/MockUSD.sol",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 6,
+              "total": 8
+            },
+            "current": {
+              "tokens": 6,
+              "total": 8
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/documents-MockUSD-sol-desktop.png",
+          "mobile": "current/documents-MockUSD-sol-mobile.png"
+        }
+      },
+      {
+        "route": "/documents/TokenSchedulesV2.sol",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 7,
+              "total": 29
+            },
+            "current": {
+              "tokens": 7,
+              "total": 29
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/documents-TokenSchedulesV2-sol-desktop.png",
+          "mobile": "current/documents-TokenSchedulesV2-sol-mobile.png"
+        }
+      },
+      {
+        "route": "/legal",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.296,
+          "landmarkSimilarity": 0.5,
+          "classOverlap": 0.027
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 3,
+              "total": 4
+            },
+            "current": {
+              "tokens": 3,
+              "total": 4
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/legal-desktop.png",
+          "mobile": "current/legal-mobile.png"
+        }
+      },
+      {
+        "route": "/lock/:id",
+        "passed": true,
+        "skipped": true,
+        "failures": [],
+        "warnings": [],
+        "structure": {},
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {}
+        },
+        "screenshots": {}
+      },
+      {
+        "route": "/locks",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.308,
+          "landmarkSimilarity": 0.4,
+          "classOverlap": 0.043
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 5,
+              "total": 5
+            },
+            "current": {
+              "tokens": 5,
+              "total": 5
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/locks-desktop.png",
+          "mobile": "current/locks-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [
+    "/documents/brand-kit.zip: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/documents/brand-kit.zip: landmark layout too similar: 1 > 0.68",
+    "/documents/brand-kit.zip: CSS class reuse too high: 1 > 0.1",
+    "/documents/brand-kit.zip: load error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/documents/brand-kit.zip\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "/documents/brand-kit.zip: desktop capture missing",
+    "/documents/brand-kit.zip: mobile capture missing",
+    "/documents/business-plan.pdf: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/documents/business-plan.pdf: landmark layout too similar: 1 > 0.68",
+    "/documents/business-plan.pdf: CSS class reuse too high: 1 > 0.1",
+    "/documents/business-plan.pdf: console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "/documents/business-plan.pdf: mobile: route navigation is not reachable (no visible links or menu toggle)",
+    "/documents/contracts.md: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/documents/contracts.md: landmark layout too similar: 1 > 0.68",
+    "/documents/contracts.md: CSS class reuse too high: 1 > 0.1",
+    "/documents/contracts.md: mobile: route navigation is not reachable (no visible links or menu toggle)",
+    "/documents/MockUSD.sol: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/documents/MockUSD.sol: landmark layout too similar: 1 > 0.68",
+    "/documents/MockUSD.sol: CSS class reuse too high: 1 > 0.1",
+    "/documents/MockUSD.sol: mobile: route navigation is not reachable (no visible links or menu toggle)",
+    "/documents/TokenSchedulesV2.sol: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/documents/TokenSchedulesV2.sol: landmark layout too similar: 1 > 0.68",
+    "/documents/TokenSchedulesV2.sol: CSS class reuse too high: 1 > 0.1",
+    "/documents/TokenSchedulesV2.sol: mobile: route navigation is not reachable (no visible links or menu toggle)"
+  ],
+  "warnings": [
+    "attributes: added \"name=arrow\"",
+    "attributes: added \"name=arrow-left\"",
+    "attributes: added \"name=arrow-right\"",
+    "attributes: added \"name=check\"",
+    "attributes: added \"name=close\"",
+    "attributes: added \"name=copy\"",
+    "attributes: added \"name=download\"",
+    "attributes: added \"name=external\"",
+    "attributes: added \"name=layers\"",
+    "attributes: added \"name=loader\"",
+    "attributes: added \"name=logout\"",
+    "attributes: added \"name=menu\"",
+    "attributes: added \"name=plus\"",
+    "attributes: added \"name=radio\"",
+    "attributes: added \"name=refresh\"",
+    "attributes: added \"name=shield\"",
+    "attributes: added \"name=wallet\"",
+    "bindings: added \"attr:active.glyph\"",
+    "bindings: added \"attr:link.glyph\"",
+    "bindings: added \"attr:product.glyph\"",
+    "bindings: added \"attr:type.glyph\"",
+    "bindings: added \"form:active.glyph\"",
+    "bindings: added \"form:link.glyph\"",
+    "bindings: added \"form:product.glyph\"",
+    "bindings: added \"form:type.glyph\"",
+    "/create: aria attribute added: aria-label=Set cliff",
+    "/create: aria attribute added: aria-label=Set end",
+    "/create: mobile nav: 4 baseline target(s) no longer visible (/create, /locks, /docs)",
+    "/documents/business-plan.pdf: desktop: empty document title",
+    "/documents/business-plan.pdf: desktop: no h1",
+    "/documents/business-plan.pdf: mobile: empty document title",
+    "/documents/business-plan.pdf: mobile: no h1",
+    "/documents/contracts.md: desktop: empty document title",
+    "/documents/contracts.md: desktop: no h1",
+    "/documents/contracts.md: mobile: empty document title",
+    "/documents/contracts.md: mobile: no h1",
+    "/documents/MockUSD.sol: desktop: empty document title",
+    "/documents/MockUSD.sol: desktop: no h1",
+    "/documents/MockUSD.sol: mobile: empty document title",
+    "/documents/MockUSD.sol: mobile: no h1",
+    "/documents/TokenSchedulesV2.sol: desktop: empty document title",
+    "/documents/TokenSchedulesV2.sol: desktop: no h1",
+    "/documents/TokenSchedulesV2.sol: mobile: empty document title",
+    "/documents/TokenSchedulesV2.sol: mobile: no h1"
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-21T17:15:36.717Z",
+    "routes": [
+      "/",
+      "/create",
+      "/docs",
+      "/documents/brand-kit.zip",
+      "/documents/business-plan.pdf",
+      "/documents/contracts.md",
+      "/documents/MockUSD.sol",
+      "/documents/TokenSchedulesV2.sol",
+      "/legal",
+      "/lock/:id",
+      "/locks"
+    ]
+  }
+}

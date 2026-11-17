@@ -1,0 +1,48 @@
+{
+  "brand": "Tranova",
+  "slug": "tranova",
+  "pronunciation": "tra-NO-va",
+  "roots": ["tranche", "nova", "release"],
+  "meaning": "A clear series of releases: each tranche arrives on its own visible date.",
+  "tagline": "Make timing accountable.",
+  "domain": "tranova.xyz",
+  "xHandle": "@tranova",
+  "status": "Prepared identity; no registration or reservation performed",
+  "checkedAt": "2026-10-21T16:51:19Z",
+  "previousIdentityRecord": "docs/history/pre-rebrand-2026-10-22/",
+  "registry": "brand.txt",
+  "domainCheck": {
+    "method": "CentralNic RDAP in Chrome via DevTools Protocol",
+    "url": "https://rdap.centralnic.com/xyz/domain/tranova.xyz",
+    "httpStatus": 404,
+    "signal": "rdap-unregistered",
+    "confidence": "medium",
+    "checkedAt": "2026-10-21T16:51:26Z",
+    "limitations": "Registrar pages returned a bot challenge; premium or registry-reserved status was not ruled out."
+  },
+  "xCheck": {
+    "method": "Chrome/155.0.8059.85 headless navigation",
+    "url": "https://x.com/tranova",
+    "httpStatus": 404,
+    "signal": "not-found-text",
+    "confidence": "high for no public profile",
+    "checkedAt": "2026-10-21T16:51:48Z"
+  },
+  "evidence": {
+    "x": "docs/rebrand-2026/evidence/x-tranova-profile.png",
+    "rdap": "docs/rebrand-2026/evidence/xyz-rdap-404.png",
+    "registrarGodaddy": "docs/rebrand-2026/evidence/registrar-godaddy.png",
+    "registrarPorkbun": "docs/rebrand-2026/evidence/registrar-porkbun.png",
+    "machineReadable": ".rebrand/availability.json"
+  },
+  "knownSameSpellingUses": [
+    "TRANOVA corporate entities in Switzerland and elsewhere (unrelated industries)",
+    "A Tranova hotel operator in Japan",
+    "One ERC-20 contract token on Base"
+  ],
+  "disclaimers": [
+    "Availability is a snapshot; it does not register the domain or create the X account.",
+    "Trademark clearance and namespace exclusivity are not claimed.",
+    "Finite searches cannot prove a string has never been used online."
+  ]
+}

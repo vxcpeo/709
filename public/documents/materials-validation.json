@@ -1,0 +1,56 @@
+{
+  "brand": "Tranova",
+  "slug": "tranova",
+  "source_text_preserved": true,
+  "business_plan_palette_matches_identity": true,
+  "source_sha256": "36867677fbd0bb56b249487e30f229a4a2674d63bb51b30e75fc27a4ea03c60b",
+  "tables": 12,
+  "pdf_pages": 17,
+  "monetary_values_checked": 40,
+  "missing_monetary_values": [],
+  "blank_pages": 0,
+  "post_characters": [
+    219,
+    241,
+    221
+  ],
+  "bio_characters": 130,
+  "social_dimensions": {
+    "01-introducing-tranova.jpg": [
+      1600,
+      900
+    ],
+    "02-release-map.jpg": [
+      1600,
+      900
+    ],
+    "03-shared-timing.jpg": [
+      1600,
+      900
+    ],
+    "avatar.jpg": [
+      400,
+      400
+    ],
+    "avatar.png": [
+      400,
+      400
+    ],
+    "banner.jpg": [
+      1500,
+      500
+    ]
+  },
+  "public_parity": {
+    "business-plan.md": true,
+    "business-plan.html": true,
+    "business-plan.pdf": true,
+    "contracts.md": true,
+    "research.md": true,
+    "launch-checklist.md": true,
+    "name-availability.md": true
+  },
+  "brand_kit_files": 26,
+  "visual_review": "Social compositions and all PDF pages inspected as contact sheets; no clipped headlines, blank pages, or overlapping table text observed.",
+  "identity_status": "Prepared identity; registration not performed"
+}

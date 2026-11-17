@@ -1,0 +1,26 @@
+{
+  "name": "Tranova",
+  "slug": "tranova",
+  "tagline": "Make timing accountable.",
+  "domain": "tranova.xyz",
+  "handle": "@tranova",
+  "identityStatus": "Prepared identity; registration not performed",
+  "pronunciation": "tra-NO-va",
+  "roots": [
+    "tranche",
+    "nova",
+    "release"
+  ],
+  "meaning": "A clear series of releases: each tranche arrives on its own visible date.",
+  "palette": {
+    "ink": "#0b0d14",
+    "blue": "#40b3ff",
+    "accessibleBlue": "#0f6f9e",
+    "muted": "#5b5f72",
+    "line": "#d7dbe4",
+    "paper": "#ffffff",
+    "mist": "#f4f6fa",
+    "pale": "#e8f2fb",
+    "orange": "#a78bfa"
+  }
+}
