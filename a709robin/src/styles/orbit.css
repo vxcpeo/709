@@ -471,6 +471,19 @@ svg {
   color: var(--orb-beam);
 }
 
+.orb-baseplate__social,
+.orb-nav__link--social {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.orb-baseplate__social .orb-x-mark,
+.orb-nav__link--social .orb-x-mark {
+  flex: none;
+  opacity: 0.9;
+}
+
 /* ---------------------------------------------------------------- frame -- */
 
 .orb-frame {

@@ -7,7 +7,12 @@
   "tagline": "Make timing accountable.",
   "domain": "tranova.xyz",
   "xHandle": "@tranova",
-  "status": "Prepared identity; no registration or reservation performed",
+  "status": "Historical preparation snapshot; the live identity is www.tranova.site / @TranovaSite",
+  "currentIdentity": {
+    "domain": "www.tranova.site",
+    "xHandle": "@TranovaSite",
+    "verifiedAt": "2026-11-17T13:02:00Z"
+  },
   "checkedAt": "2026-10-21T16:51:19Z",
   "previousIdentityRecord": "docs/history/pre-rebrand-2026-10-22/",
   "registry": "brand.txt",

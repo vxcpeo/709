@@ -1,7 +1,13 @@
+// Canonical public identity. Both the apex domain (tranova.site) and the
+// www host serve the site; www is the canonical host, so absolute URLs and
+// social metadata always use it. Keep the X handle and URL together here so no
+// page can drift to a stale account.
 export const brand = {
   name: "Tranova",
-  handle: "tranova",
-  domain: "tranova.xyz",
+  handle: "TranovaSite",
+  domain: "www.tranova.site",
+  siteUrl: "https://www.tranova.site",
+  xUrl: "https://x.com/TranovaSite",
   tagline: "Make timing accountable.",
   palette: {
     ink: "#03040a",

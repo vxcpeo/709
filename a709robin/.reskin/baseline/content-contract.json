@@ -1,0 +1,3298 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "projectName": "tranova-web",
+    "title": "Tranova — business and execution plan",
+    "lang": "en"
+  },
+  "routes": [
+    "/",
+    "/create",
+    "/docs",
+    "/documents/brand-kit.zip",
+    "/documents/business-plan.pdf",
+    "/documents/contracts.md",
+    "/documents/MockUSD.sol",
+    "/documents/TokenSchedulesV2.sol",
+    "/legal",
+    "/lock/:id",
+    "/locks"
+  ],
+  "visibleText": [
+    {
+      "value": "; its access and rate limits are managed externally.",
+      "count": 2
+    },
+    {
+      "value": "? This cannot be undone by your wallet.",
+      "count": 2
+    },
+    {
+      "value": "? Your wallet cannot reverse this action.",
+      "count": 2
+    },
+    {
+      "value": ". Learn the release models, check permissions, and verify what happens when you sign.",
+      "count": 2
+    },
+    {
+      "value": ". Obtain test ETH for gas from the",
+      "count": 2
+    },
+    {
+      "value": ". Shared release terms.",
+      "count": 2
+    },
+    {
+      "value": ". The recipient retains approximately",
+      "count": 2
+    },
+    {
+      "value": ". Use test tokens only. The contracts have not been independently audited.",
+      "count": 2
+    },
+    {
+      "value": "· Auto-refresh every 20 seconds · Exact token decimals · All dates in UTC",
+      "count": 2
+    },
+    {
+      "value": "· Refreshes every 20 seconds",
+      "count": 2
+    },
+    {
+      "value": "· your local time",
+      "count": 2
+    },
+    {
+      "value": ") is a freely mintable token with",
+      "count": 2
+    },
+    {
+      "value": "/ HANDBOOK",
+      "count": 2
+    },
+    {
+      "value": "0",
+      "count": 8
+    },
+    {
+      "value": "0 ETH",
+      "count": 2
+    },
+    {
+      "value": "01",
+      "count": 10
+    },
+    {
+      "value": "01 — GET STARTED",
+      "count": 2
+    },
+    {
+      "value": "01 / CHOOSE YOUR FORMAT",
+      "count": 2
+    },
+    {
+      "value": "01 / Configure",
+      "count": 2
+    },
+    {
+      "value": "01 / CREATE",
+      "count": 2
+    },
+    {
+      "value": "01 / GETTING STARTED",
+      "count": 2
+    },
+    {
+      "value": "02",
+      "count": 10
+    },
+    {
+      "value": "02 / DISTRIBUTION MODELS",
+      "count": 2
+    },
+    {
+      "value": "02 / FROM INTENT TO EXECUTION",
+      "count": 2
+    },
+    {
+      "value": "02 / MANAGE",
+      "count": 2
+    },
+    {
+      "value": "03",
+      "count": 6
+    },
+    {
+      "value": "03 / BEFORE YOU BEGIN",
+      "count": 2
+    },
+    {
+      "value": "03 / VERIFY",
+      "count": 2
+    },
+    {
+      "value": "04",
+      "count": 2
+    },
+    {
+      "value": "04 / READY FOR YOUR CHECK",
+      "count": 2
+    },
+    {
+      "value": "05 / CONTRACT VERIFICATION",
+      "count": 2
+    },
+    {
+      "value": "1. Check allowance",
+      "count": 2
+    },
+    {
+      "value": "10,000",
+      "count": 2
+    },
+    {
+      "value": "2. Fund schedule",
+      "count": 2
+    },
+    {
+      "value": "3. Confirmed",
+      "count": 2
+    },
+    {
+      "value": "A clear path from",
+      "count": 2
+    },
+    {
+      "value": "A few things",
+      "count": 2
+    },
+    {
+      "value": "A funded balance accrues at a one-second cadence. The stream begins at its start time with no cliff lump sum; recipients claim the accrued amount.",
+      "count": 2
+    },
+    {
+      "value": "A timeline you can inspect.",
+      "count": 2
+    },
+    {
+      "value": "A vested airdrop creates claimable schedules; it does not immediately send the allocations to every wallet. A stream also requires recipient claims. Neither mode automatically pushes payments over time.",
+      "count": 2
+    },
+    {
+      "value": "Active schedules",
+      "count": 2
+    },
+    {
+      "value": "Actual testnet activity, including development tests. These figures are not customers, revenue or asset value. tUSD has no monetary value.",
+      "count": 2
+    },
+    {
+      "value": "Add a cliff",
+      "count": 2
+    },
+    {
+      "value": "All statuses",
+      "count": 2
+    },
+    {
+      "value": "allocations",
+      "count": 2
+    },
+    {
+      "value": "Allow the creator to cancel",
+      "count": 2
+    },
+    {
+      "value": "Amount (",
+      "count": 2
+    },
+    {
+      "value": "Amounts, dates, cadence and the cancellation setting cannot be edited after funding. Check every field before signing.",
+      "count": 2
+    },
+    {
+      "value": "An experimental product",
+      "count": 2
+    },
+    {
+      "value": "An explicit cliff amount. A scheduled remainder.",
+      "count": 2
+    },
+    {
+      "value": "An independent project",
+      "count": 2
+    },
+    {
+      "value": "and timeline. I understand this is an unaudited testnet release.",
+      "count": 2
+    },
+    {
+      "value": "and use the test-token mint action.",
+      "count": 2
+    },
+    {
+      "value": "Approve connection",
+      "count": 2
+    },
+    {
+      "value": "Approve, then fund.",
+      "count": 2
+    },
+    {
+      "value": "Assign the entire remaining entitlement to another wallet.",
+      "count": 2
+    },
+    {
+      "value": "Authorization",
+      "count": 2
+    },
+    {
+      "value": "Available to claim",
+      "count": 4
+    },
+    {
+      "value": "AVAILABLE TO CLAIM",
+      "count": 2
+    },
+    {
+      "value": "Back to editing",
+      "count": 6
+    },
+    {
+      "value": "Back to workspace",
+      "count": 2
+    },
+    {
+      "value": "before using the app.",
+      "count": 2
+    },
+    {
+      "value": "Brand assets",
+      "count": 2
+    },
+    {
+      "value": "brand kit",
+      "count": 2
+    },
+    {
+      "value": "Browser data and external services",
+      "count": 2
+    },
+    {
+      "value": "Build a schedule",
+      "count": 2
+    },
+    {
+      "value": "Build your release.",
+      "count": 2
+    },
+    {
+      "value": "Built for different kinds of commitment.",
+      "count": 2
+    },
+    {
+      "value": "Business plan · PDF",
+      "count": 2
+    },
+    {
+      "value": "Cancel schedule",
+      "count": 2
+    },
+    {
+      "value": "Cancellation",
+      "count": 6
+    },
+    {
+      "value": "Cancellation setting",
+      "count": 2
+    },
+    {
+      "value": "Cancelled",
+      "count": 4
+    },
+    {
+      "value": "Cancelled at",
+      "count": 2
+    },
+    {
+      "value": "Chain explorer",
+      "count": 2
+    },
+    {
+      "value": "Chain ID",
+      "count": 2
+    },
+    {
+      "value": "Check the deployed rules",
+      "count": 2
+    },
+    {
+      "value": "Check the ID and network, or return to your workspace. Older V1 records use the earlier deployment listed in the contract guide.",
+      "count": 2
+    },
+    {
+      "value": "Choose a distribution model",
+      "count": 2
+    },
+    {
+      "value": "Choose a distribution model, define the allocations, then review every detail before funding.",
+      "count": 2
+    },
+    {
+      "value": "Choose a flow and set its terms.",
+      "count": 2
+    },
+    {
+      "value": "Choose the right release model",
+      "count": 2
+    },
+    {
+      "value": "Choose wallet",
+      "count": 2
+    },
+    {
+      "value": "Choose whether future vesting can stop",
+      "count": 2
+    },
+    {
+      "value": "Choose your asset",
+      "count": 2
+    },
+    {
+      "value": "Choose your token, recipients and release dates. Preview the exact schedule before you commit.",
+      "count": 2
+    },
+    {
+      "value": "Claim as the recipient",
+      "count": 2
+    },
+    {
+      "value": "Claim tokens",
+      "count": 2
+    },
+    {
+      "value": "claimed",
+      "count": 2
+    },
+    {
+      "value": "Claimed by recipients",
+      "count": 2
+    },
+    {
+      "value": "Claims, cancellation & transfers",
+      "count": 2
+    },
+    {
+      "value": "Clear expectations.",
+      "count": 2
+    },
+    {
+      "value": "Clear filters",
+      "count": 2
+    },
+    {
+      "value": "Cliff",
+      "count": 6
+    },
+    {
+      "value": "CLIFF",
+      "count": 2
+    },
+    {
+      "value": "Cliff / release start",
+      "count": 2
+    },
+    {
+      "value": "Cliff after",
+      "count": 2
+    },
+    {
+      "value": "Cliff allocation",
+      "count": 2
+    },
+    {
+      "value": "Cliff delay unit",
+      "count": 2
+    },
+    {
+      "value": "Cliff ends · your local time",
+      "count": 2
+    },
+    {
+      "value": "Cliff unlock",
+      "count": 2
+    },
+    {
+      "value": "Cliff unlock total",
+      "count": 2
+    },
+    {
+      "value": "Cliff:",
+      "count": 2
+    },
+    {
+      "value": "Common questions",
+      "count": 2
+    },
+    {
+      "value": "Common questions ↗",
+      "count": 2
+    },
+    {
+      "value": "Community and ecosystem allocations",
+      "count": 2
+    },
+    {
+      "value": "Compose",
+      "count": 2
+    },
+    {
+      "value": "Confirm cancellation",
+      "count": 4
+    },
+    {
+      "value": "Confirm transfer",
+      "count": 4
+    },
+    {
+      "value": "Connect an EVM wallet.",
+      "count": 2
+    },
+    {
+      "value": "Connect to see your schedules",
+      "count": 2
+    },
+    {
+      "value": "Connect wallet to manage",
+      "count": 2
+    },
+    {
+      "value": "Connect your wallet",
+      "count": 2
+    },
+    {
+      "value": "Connect your wallet, approve the required allowance, then fund your schedule with test tokens.",
+      "count": 2
+    },
+    {
+      "value": "Contract guide & addresses",
+      "count": 2
+    },
+    {
+      "value": "Create a schedule",
+      "count": 4
+    },
+    {
+      "value": "Create up to 100 separately funded allocations in one atomic batch, with shared dates and cadence and an individual cliff amount for each allocation. Recipients claim independently.",
+      "count": 2
+    },
+    {
+      "value": "Create your first schedule",
+      "count": 2
+    },
+    {
+      "value": "Created by me",
+      "count": 2
+    },
+    {
+      "value": "Creation, approvals, claims, cancellation and recipient transfers still require network gas. The absence of protocol fees does not mean transactions are gas-free.",
+      "count": 2
+    },
+    {
+      "value": "Creator",
+      "count": 2
+    },
+    {
+      "value": "Current recipient",
+      "count": 2
+    },
+    {
+      "value": "Currently in escrow · test token only",
+      "count": 2
+    },
+    {
+      "value": "currently runs on",
+      "count": 2
+    },
+    {
+      "value": "Custom date",
+      "count": 2
+    },
+    {
+      "value": "Custom ERC-20",
+      "count": 2
+    },
+    {
+      "value": "decimals · Verify the contract independently.",
+      "count": 2
+    },
+    {
+      "value": "decimals. Its contract permits up to 10,000 tUSD per mint transaction. Minting also requires test ETH for gas. tUSD has no monetary value, backing or redemption right.",
+      "count": 2
+    },
+    {
+      "value": "Define the allocation",
+      "count": 2
+    },
+    {
+      "value": "Deployment date",
+      "count": 2
+    },
+    {
+      "value": "Design the timeline",
+      "count": 2
+    },
+    {
+      "value": "Disconnect",
+      "count": 2
+    },
+    {
+      "value": "DISTRIBUTION STUDIO / NEW SCHEDULE",
+      "count": 2
+    },
+    {
+      "value": "DISTRIBUTION WORKSPACE",
+      "count": 2
+    },
+    {
+      "value": "does not control those services. This interface uses self-hosted Manrope with a system-font fallback and does not request fonts from a third-party font provider.",
+      "count": 2
+    },
+    {
+      "value": "Duration runs after the cliff when enabled, otherwise after the start. A month is 30 days; a year is 365 days. The exact dates below are the final terms.",
+      "count": 2
+    },
+    {
+      "value": "Duration unit",
+      "count": 2
+    },
+    {
+      "value": "End",
+      "count": 2
+    },
+    {
+      "value": "END",
+      "count": 6
+    },
+    {
+      "value": "End this schedule now? Approximately",
+      "count": 2
+    },
+    {
+      "value": "Enter the token, recipient, amount, dates and any cliff allocation. “Start now” resolves when the creation transaction is mined. A specified past start is accepted, so check the release preview carefully: it may make tokens immediately claimable. Review the cliff amount, cadence and optional cancellation setting.",
+      "count": 2
+    },
+    {
+      "value": "Environment",
+      "count": 2
+    },
+    {
+      "value": "Estimated refund:",
+      "count": 2
+    },
+    {
+      "value": "ETH",
+      "count": 2
+    },
+    {
+      "value": "Every",
+      "count": 2
+    },
+    {
+      "value": "Every 30 days",
+      "count": 2
+    },
+    {
+      "value": "Every day (24 hours)",
+      "count": 2
+    },
+    {
+      "value": "Every hour",
+      "count": 2
+    },
+    {
+      "value": "Every minute",
+      "count": 2
+    },
+    {
+      "value": "Every second",
+      "count": 2
+    },
+    {
+      "value": "Every week (7 days)",
+      "count": 2
+    },
+    {
+      "value": "Exact base-unit math at the selected time. “Start now” uses the eventual transaction block; this preview uses the review time.",
+      "count": 2
+    },
+    {
+      "value": "Exact deposit",
+      "count": 2
+    },
+    {
+      "value": "Exact token accounting",
+      "count": 2
+    },
+    {
+      "value": "explains the four flows, exact release rules, permissions and deployed contract addresses. Consult it before creating a schedule. These pages may change as the testnet product evolves; the deployed contract’s rules remain those of its published code.",
+      "count": 2
+    },
+    {
+      "value": "External links open services with their own privacy practices;",
+      "count": 2
+    },
+    {
+      "value": "Final vested entitlement",
+      "count": 2
+    },
+    {
+      "value": "Flow",
+      "count": 2
+    },
+    {
+      "value": "Follow",
+      "count": 2
+    },
+    {
+      "value": "Follow it in your workspace.",
+      "count": 2
+    },
+    {
+      "value": "For example, a 1,200-token schedule with a 300-token cliff amount makes 300 tokens available at the cliff. If nine days remain until the end, a daily cadence releases a further 100 tokens per completed day. With a zero cliff amount, nothing is available at the cliff itself. At or after the end, the entire allocation is vested, including any rounding remainder, unless the schedule was canceled. If the cliff and end are the same timestamp, the full allocation unlocks at that timestamp.",
+      "count": 2
+    },
+    {
+      "value": "Four tools. Your timeline.",
+      "count": 2
+    },
+    {
+      "value": "From the cliff until the end, before any cancellation:",
+      "count": 2
+    },
+    {
+      "value": "From the first transaction.",
+      "count": 2
+    },
+    {
+      "value": "From wallet to funded schedule",
+      "count": 2
+    },
+    {
+      "value": "Fully unlocked",
+      "count": 8
+    },
+    {
+      "value": "Fund",
+      "count": 2
+    },
+    {
+      "value": "funding to the final claim.",
+      "count": 2
+    },
+    {
+      "value": "Gas asset",
+      "count": 2
+    },
+    {
+      "value": "Get MetaMask",
+      "count": 2
+    },
+    {
+      "value": "Get testnet ETH",
+      "count": 2
+    },
+    {
+      "value": "Go to your workspace",
+      "count": 2
+    },
+    {
+      "value": "handbook",
+      "count": 2
+    },
+    {
+      "value": "Have a schedule ID?",
+      "count": 2
+    },
+    {
+      "value": "How release timing works",
+      "count": 2
+    },
+    {
+      "value": "How to use this experimental release, and what information is involved when you do. Updated September 17, 2026.",
+      "count": 2
+    },
+    {
+      "value": "I checked the token, recipient",
+      "count": 2
+    },
+    {
+      "value": "If cancellation was enabled at creation, only the original sender can cancel, including while a schedule is active. Cancellation freezes the vested amount at the transaction’s block time and immediately refunds the unvested amount to the sender. The vested amount minus previous claims remains available for the recipient to claim later. Future vesting stops; already vested rights are not clawed back. Before the cliff, nothing is vested and the full deposit is refunded. A non-cancelable schedule cannot be canceled.",
+      "count": 2
+    },
+    {
+      "value": "If your allowance is insufficient, first approve the scheduler to spend the required token amount. Then confirm the creation transaction. An approval alone creates no schedule. The second transaction moves the full deposit into the contract and records the schedule; a batch funds all its allocations together.",
+      "count": 2
+    },
+    {
+      "value": "ILLUSTRATIVE / NOT LIVE DATA",
+      "count": 2
+    },
+    {
+      "value": "Illustrative terms · no wallet needed",
+      "count": 2
+    },
+    {
+      "value": "IN THIS GUIDE",
+      "count": 2
+    },
+    {
+      "value": "Independent of Robinhood.",
+      "count": 2
+    },
+    {
+      "value": "Inspect the allocation, follow its release, and manage the rights held by your wallet.",
+      "count": 2
+    },
+    {
+      "value": "Inspect the contracts",
+      "count": 2
+    },
+    {
+      "value": "Install an EVM wallet extension, then reload this page.",
+      "count": 2
+    },
+    {
+      "value": "is an independent project built for Robinhood Chain. It is not affiliated with, sponsored by or endorsed by Robinhood. Network and third-party names identify compatible infrastructure; they do not imply a partnership.",
+      "count": 2
+    },
+    {
+      "value": "Keep schedule",
+      "count": 4
+    },
+    {
+      "value": "Know the terms.",
+      "count": 2
+    },
+    {
+      "value": "Live data unavailable.",
+      "count": 2
+    },
+    {
+      "value": "LIVE SCHEDULE PREVIEW",
+      "count": 2
+    },
+    {
+      "value": "Manage rights",
+      "count": 2
+    },
+    {
+      "value": "Midpoint",
+      "count": 2
+    },
+    {
+      "value": "Mint demonstration tokens.",
+      "count": 2
+    },
+    {
+      "value": "Move claim rights to another wallet",
+      "count": 2
+    },
+    {
+      "value": "Move through the release ·",
+      "count": 2
+    },
+    {
+      "value": "Move through time",
+      "count": 2
+    },
+    {
+      "value": "Network",
+      "count": 2
+    },
+    {
+      "value": "New recipient wallet",
+      "count": 4
+    },
+    {
+      "value": "New schedule",
+      "count": 4
+    },
+    {
+      "value": "Next",
+      "count": 2
+    },
+    {
+      "value": "No administrator withdrawal. No upgrade switch. The deployed contract defines the rules, and every schedule can be read onchain.",
+      "count": 2
+    },
+    {
+      "value": "No browser wallet detected",
+      "count": 2
+    },
+    {
+      "value": "No matching schedules",
+      "count": 2
+    },
+    {
+      "value": "No wallet needed to inspect terms.",
+      "count": 2
+    },
+    {
+      "value": "Nothing unlocks before the cliff. Your chosen cliff amount unlocks then; the remainder releases afterwards.",
+      "count": 2
+    },
+    {
+      "value": "Nothing vests before the cliff. At the cliff, the configured cliff allocation becomes claimable. The remaining amount then accrues from the cliff to the end, rounded down to completed cadence intervals. The cliff amount can be zero; it is not an accrual from the earlier start date.",
+      "count": 2
+    },
+    {
+      "value": "Now · when funding confirms",
+      "count": 2
+    },
+    {
+      "value": "of",
+      "count": 2
+    },
+    {
+      "value": "official testnet faucet",
+      "count": 2
+    },
+    {
+      "value": "On mobile, open this website inside your wallet’s browser.",
+      "count": 2
+    },
+    {
+      "value": "on this page",
+      "count": 2
+    },
+    {
+      "value": "On this page",
+      "count": 2
+    },
+    {
+      "value": "One address,amount pair per line (spaces also work); an optional third column overrides that recipient’s cliff amount. Up to 100 unique recipients. No CSV header, commas in amounts, or scientific notation.",
+      "count": 2
+    },
+    {
+      "value": "Only the current recipient can claim or transfer rights. Only the creator can cancel when cancellation was enabled.",
+      "count": 2
+    },
+    {
+      "value": "Only the schedule’s current recipient can claim its unlocked balance. Claims require test ETH for gas. Claiming part of an allocation leaves the remaining schedule in place. Already claimed tokens cannot be claimed again.",
+      "count": 2
+    },
+    {
+      "value": "Open",
+      "count": 6
+    },
+    {
+      "value": "Open a public schedule",
+      "count": 2
+    },
+    {
+      "value": "Open any public schedule without connecting a wallet.",
+      "count": 2
+    },
+    {
+      "value": "Open schedule",
+      "count": 2
+    },
+    {
+      "value": "Open workspace",
+      "count": 2
+    },
+    {
+      "value": "or download the source and deployment details below. Source verification shows correspondence to deployed code; it is not an independent security audit.",
+      "count": 2
+    },
+    {
+      "value": "Original allocation",
+      "count": 2
+    },
+    {
+      "value": "Participants",
+      "count": 2
+    },
+    {
+      "value": "Payment stream",
+      "count": 2
+    },
+    {
+      "value": "Previous",
+      "count": 2
+    },
+    {
+      "value": "PRODUCT TERMS / PRIVACY",
+      "count": 2
+    },
+    {
+      "value": "Protocol fee",
+      "count": 2
+    },
+    {
+      "value": "Protocol fee · network gas applies",
+      "count": 2
+    },
+    {
+      "value": "provides an interface for creating and managing token schedules on a public test network. This release is provided for evaluation, without a guarantee of uninterrupted access, correctness or token recovery. Network resets, software defects and third-party service failures may affect it.",
+      "count": 2
+    },
+    {
+      "value": "Public blockchain information",
+      "count": 2
+    },
+    {
+      "value": "Public onchain data",
+      "count": 2
+    },
+    {
+      "value": "Public RPC",
+      "count": 2
+    },
+    {
+      "value": "PUBLIC SCHEDULE / ONCHAIN RECORD",
+      "count": 2
+    },
+    {
+      "value": "Public schedule details",
+      "count": 2
+    },
+    {
+      "value": "Put the plan in motion.",
+      "count": 2
+    },
+    {
+      "value": "Read at",
+      "count": 2
+    },
+    {
+      "value": "Read from Robinhood Chain Testnet · Updated",
+      "count": 2
+    },
+    {
+      "value": "READ IT ONCHAIN",
+      "count": 2
+    },
+    {
+      "value": "Read the quick start",
+      "count": 2
+    },
+    {
+      "value": "Read the rules & limits",
+      "count": 2
+    },
+    {
+      "value": "Read the rules before you sign",
+      "count": 2
+    },
+    {
+      "value": "Read the scheduler on the explorer",
+      "count": 2
+    },
+    {
+      "value": "Reading schedule terms and available balance…",
+      "count": 2
+    },
+    {
+      "value": "Reading your commitments from the chain…",
+      "count": 2
+    },
+    {
+      "value": "Receiving",
+      "count": 2
+    },
+    {
+      "value": "recipient",
+      "count": 2
+    },
+    {
+      "value": "Recipient address",
+      "count": 2
+    },
+    {
+      "value": "Recipient wallet",
+      "count": 2
+    },
+    {
+      "value": "Recipients",
+      "count": 2
+    },
+    {
+      "value": "Recipients and amounts",
+      "count": 2
+    },
+    {
+      "value": "recipients entered.",
+      "count": 2
+    },
+    {
+      "value": "Records",
+      "count": 2
+    },
+    {
+      "value": "Refunded to creator",
+      "count": 2
+    },
+    {
+      "value": "Release cadence",
+      "count": 6
+    },
+    {
+      "value": "RELEASE CONTROL",
+      "count": 2
+    },
+    {
+      "value": "Release duration",
+      "count": 2
+    },
+    {
+      "value": "RELEASE PREVIEW",
+      "count": 2
+    },
+    {
+      "value": "Release rule",
+      "count": 2
+    },
+    {
+      "value": "Release terms",
+      "count": 2
+    },
+    {
+      "value": "Remaining entitlement",
+      "count": 2
+    },
+    {
+      "value": "Resources & downloads",
+      "count": 2
+    },
+    {
+      "value": "Retry",
+      "count": 4
+    },
+    {
+      "value": "Retry loading",
+      "count": 2
+    },
+    {
+      "value": "Returned to creator",
+      "count": 2
+    },
+    {
+      "value": "Review all",
+      "count": 2
+    },
+    {
+      "value": "Review before funding",
+      "count": 2
+    },
+    {
+      "value": "Review cancellation",
+      "count": 2
+    },
+    {
+      "value": "Review recipient transfer",
+      "count": 4
+    },
+    {
+      "value": "Review the final terms",
+      "count": 2
+    },
+    {
+      "value": "Review your schedule",
+      "count": 2
+    },
+    {
+      "value": "Review your schedule to explore an exact timeline. All confirmation times are shown in UTC. Past start dates may make tokens immediately claimable.",
+      "count": 2
+    },
+    {
+      "value": "Reviewing is free and does not request a signature.",
+      "count": 2
+    },
+    {
+      "value": "Robinhood Chain",
+      "count": 2
+    },
+    {
+      "value": "Robinhood Chain Testnet",
+      "count": 2
+    },
+    {
+      "value": "Robinhood Chain Testnet ·",
+      "count": 2
+    },
+    {
+      "value": "Robinhood Chain Testnet · Test tokens only · No protocol fees",
+      "count": 2
+    },
+    {
+      "value": "SCHEDULE /",
+      "count": 2
+    },
+    {
+      "value": "Schedule #",
+      "count": 2
+    },
+    {
+      "value": "Schedule data is public. Displayed amounts are rounded to six decimals; CSV exports preserve exact base units. Claims always use the contract’s exact balance.",
+      "count": 2
+    },
+    {
+      "value": "Schedule ID",
+      "count": 2
+    },
+    {
+      "value": "Schedule starts",
+      "count": 2
+    },
+    {
+      "value": "Schedule unavailable",
+      "count": 2
+    },
+    {
+      "value": "Scheduler source · Solidity",
+      "count": 2
+    },
+    {
+      "value": "Schedules created",
+      "count": 2
+    },
+    {
+      "value": "Search and filters apply to the current page.",
+      "count": 2
+    },
+    {
+      "value": "seconds",
+      "count": 2
+    },
+    {
+      "value": "Security model & limitations",
+      "count": 2
+    },
+    {
+      "value": "Select “Connect wallet” and choose your browser wallet. On mobile, use your wallet’s browser. Connecting shares your public address; it does not transfer tokens or authorize a payment.",
+      "count": 2
+    },
+    {
+      "value": "Set cliff",
+      "count": 2
+    },
+    {
+      "value": "Set dates with durations",
+      "count": 2
+    },
+    {
+      "value": "Set end",
+      "count": 2
+    },
+    {
+      "value": "Set it up. See it through.",
+      "count": 2
+    },
+    {
+      "value": "Set up, fund and inspect token releases under terms you control.",
+      "count": 2
+    },
+    {
+      "value": "Skip to content",
+      "count": 2
+    },
+    {
+      "value": "Source on the explorer",
+      "count": 2
+    },
+    {
+      "value": "Standard fixed-balance ERC-20 tokens only. Rebasing and fee-on-transfer tokens are unsupported.",
+      "count": 2
+    },
+    {
+      "value": "Start",
+      "count": 2
+    },
+    {
+      "value": "START",
+      "count": 6
+    },
+    {
+      "value": "Starts at · your local time",
+      "count": 2
+    },
+    {
+      "value": "Stop future vesting",
+      "count": 2
+    },
+    {
+      "value": "Streams use a one-second interval, a cliff equal to the start and a zero cliff amount. A date lock releases the full amount at its unlock timestamp. Neither applies a separate initial cliff payout.",
+      "count": 2
+    },
+    {
+      "value": "Switch to",
+      "count": 2
+    },
+    {
+      "value": "Team and contributor allocations",
+      "count": 2
+    },
+    {
+      "value": "Terms & privacy",
+      "count": 2
+    },
+    {
+      "value": "Test ETH",
+      "count": 2
+    },
+    {
+      "value": "Test ETH and the freely mintable tUSD demonstration token have no monetary value. tUSD is not a dollar deposit, a backed stablecoin, a redemption claim or an investment. Nothing on this site promises returns or constitutes financial, investment or legal advice.",
+      "count": 2
+    },
+    {
+      "value": "Test tokens only. Network gas is paid in testnet ETH. Connection alone does not authorize a transaction.",
+      "count": 2
+    },
+    {
+      "value": "Test-token source · Solidity",
+      "count": 2
+    },
+    {
+      "value": "Testnet",
+      "count": 2
+    },
+    {
+      "value": "TESTNET · 46630",
+      "count": 2
+    },
+    {
+      "value": "Testnet only · Connecting does not move funds.",
+      "count": 2
+    },
+    {
+      "value": "Testnet only. Use test tokens. Independent audit pending.",
+      "count": 2
+    },
+    {
+      "value": "testnet terms and privacy information",
+      "count": 2
+    },
+    {
+      "value": "Testnet tokens only",
+      "count": 2
+    },
+    {
+      "value": "The",
+      "count": 2
+    },
+    {
+      "value": "The addresses below are the same deployment configuration used by this app. Both contracts have source code published on the official testnet explorer. This guide describes the current scheduler; earlier deployments retain their own code and release rules.",
+      "count": 2
+    },
+    {
+      "value": "The amount available to withdraw is vested tokens minus previous claims. Dates are stored as Unix timestamps and evaluated using the chain’s block timestamp. Token calculations use the token’s smallest units; the final unlock releases any rounding remainder. An interval longer than the remaining duration creates no intermediate release: the cliff amount unlocks at the cliff and the rest at the end.",
+      "count": 2
+    },
+    {
+      "value": "The app does not ask for your seed phrase or private key. Wallet approval and signing take place in your wallet. Disconnecting the interface does not revoke existing token allowances or remove records from the blockchain; use your wallet’s tools to manage permissions.",
+      "count": 2
+    },
+    {
+      "value": "The app requests the correct network before a transaction. The chain ID is",
+      "count": 2
+    },
+    {
+      "value": "The business plan describes proposed commercial development; its targets are planning assumptions, not achieved results. Read the",
+      "count": 2
+    },
+    {
+      "value": "The business plan includes future product ideas and planning assumptions. It does not establish current customers, revenues, security certification or a commitment to launch a financial product.",
+      "count": 2
+    },
+    {
+      "value": "The complete guide",
+      "count": 2
+    },
+    {
+      "value": "The configured cliff amount unlocks at the cliff. The remainder accrues from the cliff at your chosen cadence; all remaining tokens vest at the end.",
+      "count": 2
+    },
+    {
+      "value": "The creator may end the schedule at any time. Tokens already unlocked remain claimable by the recipient; only the unvested remainder returns to the creator. Leave unchecked for an irrevocable commitment.",
+      "count": 2
+    },
+    {
+      "value": "The current recipient can transfer the entire remaining claim right to a different wallet. The sender, dates, amount, previous claims and cancellation setting stay the same. The new recipient becomes the only wallet able to claim the remaining tokens. This is a transfer of rights, not an immediate payout. An unclaimed vested entitlement can still be transferred after cancellation. Once no entitlement remains, there is nothing to transfer.",
+      "count": 2
+    },
+    {
+      "value": "The deployed scheduler is immutable and has no administrator, upgrade mechanism, pause function, protocol fee or administrator withdrawal path. Its deployer has no privileged access. There is no operator who can edit a schedule or recover tokens by overriding its rules.",
+      "count": 2
+    },
+    {
+      "value": "The deposit is funded in full. Confirm these terms, then authorize each transaction in your wallet.",
+      "count": 2
+    },
+    {
+      "value": "The entire amount stays locked until the unlock time. For this type, the start and unlock times are the same.",
+      "count": 2
+    },
+    {
+      "value": "The full amount becomes claimable at one unlock time. Start, cliff and end are that same timestamp.",
+      "count": 2
+    },
+    {
+      "value": "The full deposit is funded up front. The recipient’s claimable balance then grows every second between the start and end.",
+      "count": 2
+    },
+    {
+      "value": "The practical guide to",
+      "count": 2
+    },
+    {
+      "value": "The scheduler holds funded tokens under immutable rules. There is no administrator override or recovery function. When enabled at creation, the sender can cancel before or during the schedule. Cancellation stops future vesting and refunds the unvested amount; vested tokens remain claimable by the recipient after subtracting previous claims. Noncancelable schedules cannot be canceled. Recipient transfers move the remaining entitlement to the new wallet, including an unclaimed vested entitlement after cancellation. Transactions confirmed by the network cannot be reversed through this website.",
+      "count": 2
+    },
+    {
+      "value": "The site uses a public RPC endpoint to read blockchain data and submit wallet-authorized transactions. RPC providers may receive your IP address, requested wallet addresses and other request metadata. Site hosting, wallet providers, the external block explorer and faucet may also process technical information under their own policies.",
+      "count": 2
+    },
+    {
+      "value": "THE TERMS STAY IN VIEW",
+      "count": 2
+    },
+    {
+      "value": "The testnet scheduler charges no protocol fee. Network transactions still require test ETH for gas. This release is not an independently audited production service and must not be used with real funds.",
+      "count": 2
+    },
+    {
+      "value": "The wallet that can claim unlocked tokens.",
+      "count": 2
+    },
+    {
+      "value": "This is an experimental testnet release. The contracts have not been independently audited. Use test tokens only.",
+      "count": 2
+    },
+    {
+      "value": "This is part of the total allocation, not an additional deposit. Zero begins the remaining release after the cliff.",
+      "count": 2
+    },
+    {
+      "value": "This release has not been independently audited and is not ready for real funds. Testnet availability and token balances can change. An eventual production launch requires a separate security review and deployment decision.",
+      "count": 2
+    },
+    {
+      "value": "This transfers all remaining claim rights. Your wallet will no longer be able to claim this schedule.",
+      "count": 2
+    },
+    {
+      "value": "This version does not include application analytics, advertising trackers, an email signup database or a user-account system. The connected-wallet state is used in the browser to operate the interface. Your wallet manages its own account access, permissions and storage.",
+      "count": 2
+    },
+    {
+      "value": "Time-based grants and contributor payments",
+      "count": 2
+    },
+    {
+      "value": "TIMELINE",
+      "count": 2
+    },
+    {
+      "value": "to know.",
+      "count": 2
+    },
+    {
+      "value": "to view sent and received schedules. Use the transaction link to confirm its onchain status. The current recipient signs a claim transaction when tokens become available.",
+      "count": 2
+    },
+    {
+      "value": "Token",
+      "count": 2
+    },
+    {
+      "value": "Token contract",
+      "count": 4
+    },
+    {
+      "value": "Token contract on Robinhood testnet",
+      "count": 2
+    },
+    {
+      "value": "Token lock",
+      "count": 2
+    },
+    {
+      "value": "TOKEN RELEASE WORKSPACE / TESTNET",
+      "count": 2
+    },
+    {
+      "value": "Token scheduler",
+      "count": 2
+    },
+    {
+      "value": "Token vesting",
+      "count": 2
+    },
+    {
+      "value": "tokens",
+      "count": 2
+    },
+    {
+      "value": "Tokens stay in the contract. Only the recipient can claim. Network gas is paid in testnet ETH.",
+      "count": 2
+    },
+    {
+      "value": "tokens unlocked",
+      "count": 2
+    },
+    {
+      "value": "Total recipient entitlement",
+      "count": 2
+    },
+    {
+      "value": "Track funded allocations, collect available tokens, and manage each release from one workspace.",
+      "count": 2
+    },
+    {
+      "value": "Track or claim tokens",
+      "count": 2
+    },
+    {
+      "value": "Track progress in your workspace. Share a public schedule link. Claim tokens as they unlock.",
+      "count": 2
+    },
+    {
+      "value": "Track releases",
+      "count": 2
+    },
+    {
+      "value": "Tranova",
+      "count": 2
+    },
+    {
+      "value": "Tranova — business and execution plan",
+      "count": 1
+    },
+    {
+      "value": "Transfer all remaining rights to",
+      "count": 4
+    },
+    {
+      "value": "Transfer claim rights",
+      "count": 2
+    },
+    {
+      "value": "Transfer the remaining entitlement",
+      "count": 2
+    },
+    {
+      "value": "Treasury commitments and reserves",
+      "count": 2
+    },
+    {
+      "value": "tUSD",
+      "count": 2
+    },
+    {
+      "value": "tUSD · Test token",
+      "count": 2
+    },
+    {
+      "value": "Typical use",
+      "count": 2
+    },
+    {
+      "value": "Unaudited deployment. Use test tokens only.",
+      "count": 2
+    },
+    {
+      "value": "unclaimed, plus tokens already claimed. Exact settlement uses the transaction block.",
+      "count": 2
+    },
+    {
+      "value": "Understand every release.",
+      "count": 2
+    },
+    {
+      "value": "unlocked at",
+      "count": 2
+    },
+    {
+      "value": "UNLOCKED BALANCE",
+      "count": 2
+    },
+    {
+      "value": "Unvested tokens return to the creator. Vested tokens remain claimable by the recipient.",
+      "count": 2
+    },
+    {
+      "value": "Use my wallet",
+      "count": 2
+    },
+    {
+      "value": "Use standard, fixed-balance ERC-20 test tokens. The contract checks exact deposit and withdrawal amounts and rejects taxed or underpaid transfers. Rebasing tokens, issuer freezes, blacklists, malicious token behavior or future token upgrades can still make funds inaccessible. These checks do not establish that any arbitrary token is safe.",
+      "count": 2
+    },
+    {
+      "value": "Use the wallet that created or received an allocation. Your schedules and available claims are read directly from Robinhood Chain Testnet.",
+      "count": 2
+    },
+    {
+      "value": "Use this mode",
+      "count": 2
+    },
+    {
+      "value": "UTC",
+      "count": 2
+    },
+    {
+      "value": "Verify contract rules",
+      "count": 2
+    },
+    {
+      "value": "Verify the deployed contracts",
+      "count": 2
+    },
+    {
+      "value": "vested = cliffAmount + floor((amount − cliffAmount) × (floor((now − cliff) / interval) × interval) / (end − cliff))",
+      "count": 2
+    },
+    {
+      "value": "Vested airdrop",
+      "count": 2
+    },
+    {
+      "value": "View latest transaction ↗",
+      "count": 2
+    },
+    {
+      "value": "View schedule",
+      "count": 2
+    },
+    {
+      "value": "View transaction ↗",
+      "count": 4
+    },
+    {
+      "value": "wallet",
+      "count": 2
+    },
+    {
+      "value": "WALLET ACCESS",
+      "count": 2
+    },
+    {
+      "value": "Wallet addresses, balances, allowances, schedule details and submitted transactions are public blockchain information. The app reads this information to display your workspace and transaction status. Other people can inspect it through the network or a block explorer. A wallet address is not an anonymous identity guarantee.",
+      "count": 2
+    },
+    {
+      "value": "WALLETS & ASSET",
+      "count": 2
+    },
+    {
+      "value": "When does it start?",
+      "count": 2
+    },
+    {
+      "value": "will remain claimable by the recipient. Exact settlement uses the transaction’s block time; previously claimed tokens stay with the recipient.",
+      "count": 2
+    },
+    {
+      "value": "will return to the creator. Approximately",
+      "count": 2
+    },
+    {
+      "value": "With tokens to claim · this page",
+      "count": 2
+    },
+    {
+      "value": "Your access:",
+      "count": 2
+    },
+    {
+      "value": "YOUR NEXT MOVE",
+      "count": 2
+    },
+    {
+      "value": "Your schedules.",
+      "count": 2
+    },
+    {
+      "value": "Your wallet and transactions",
+      "count": 2
+    },
+    {
+      "value": "Your wallet controls transaction authorization. Check the network, token address, recipient, allowance, amount and timing before signing. Connecting a wallet does not itself transfer assets. A token approval grants the specified contract permission to spend tokens; funding a schedule is a separate transaction.",
+      "count": 2
+    },
+    {
+      "value": "Your wallet, your signatures",
+      "count": 2
+    },
+    {
+      "value": "Your workspace",
+      "count": 2
+    }
+  ],
+  "hiddenText": [
+    {
+      "value": "Filter schedules on this page",
+      "count": 2
+    },
+    {
+      "value": "Schedule ID",
+      "count": 2
+    },
+    {
+      "value": "Search schedules on this page",
+      "count": 2
+    }
+  ],
+  "attributes": [
+    {
+      "name": "href",
+      "value": "/documents/brand-kit.zip",
+      "count": 4
+    },
+    {
+      "name": "href",
+      "value": "/documents/business-plan.pdf",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "/documents/contracts.md",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "/documents/MockUSD.sol",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "/documents/TokenSchedulesV2.sol",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "#main-content",
+      "count": 2
+    },
+    {
+      "name": "href",
+      "value": "https://metamask.io/download/",
+      "count": 2
+    },
+    {
+      "name": "meta:description",
+      "value": "Tranova business and execution plan: product scope, financial scenarios and launch gates.",
+      "count": 1
+    },
+    {
+      "name": "placeholder",
+      "value": "0",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "0x…",
+      "count": 6
+    },
+    {
+      "name": "placeholder",
+      "value": "0x… recipient address",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "0xRecipientAddress,1000,100 0xAnotherAddress,2500,250",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "1000",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "Schedule ID",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "Schedule ID, e.g. 12",
+      "count": 2
+    },
+    {
+      "name": "placeholder",
+      "value": "Search this page by ID, token or wallet",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/#faq",
+      "count": 4
+    },
+    {
+      "name": "to",
+      "value": "/create",
+      "count": 12
+    },
+    {
+      "name": "to",
+      "value": "/docs",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/docs#contracts",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/docs#getting-started",
+      "count": 4
+    },
+    {
+      "name": "to",
+      "value": "/docs#security",
+      "count": 2
+    },
+    {
+      "name": "to",
+      "value": "/legal",
+      "count": 4
+    },
+    {
+      "name": "to",
+      "value": "/locks",
+      "count": 8
+    },
+    {
+      "name": "to",
+      "value": "/locks?role=sent",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "1",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "2592000",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "3600",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "60",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "604800",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "86400",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "active",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "all",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "cancelled",
+      "count": 2
+    },
+    {
+      "name": "value",
+      "value": "claimable",
+      "count": 2
+    }
+  ],
+  "bindings": [
+    {
+      "kind": "attr",
+      "expr": "`/create?mode=${activeMode}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`/create?mode=${product.id}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`/docs#${id}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`/lock/${id}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`/lock/${record.id}`",
+      "count": 4
+    },
+    {
+      "kind": "attr",
+      "expr": "`${addressUrl(config.schedulerAddress)}?tab=contract`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`${network.explorer}/address/${config.schedulerAddress}?tab=contract`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`${network.explorer}/address/${record.token.address}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`${network.explorer}/address/${role === 'sent' ? record.recipient : record.sender}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`${network.explorer}/tx/${actionHash}`",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "`${network.explorer}/tx/${txHash}`",
+      "count": 4
+    },
+    {
+      "kind": "attr",
+      "expr": "addressUrl(record.recipient)",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "addressUrl(record.sender)",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "addressUrl(record.token)",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "explorerContract(contracts.schedulerAddress)",
+      "count": 4
+    },
+    {
+      "kind": "attr",
+      "expr": "explorerContract(contracts.testTokenAddress)",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "false",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "link.path",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "network.explorer",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "network.faucet",
+      "count": 4
+    },
+    {
+      "kind": "attr",
+      "expr": "true",
+      "count": 2
+    },
+    {
+      "kind": "attr",
+      "expr": "unit.seconds",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "(released * 100).toLocaleString()",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "a",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "actionMessage",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "active.label",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "address",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(claimable)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(record.amount)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(record.claimed)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(record.cliffAmount)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(record.refunded)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(record.vestedAtCancel)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(refundEstimate)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amount(remaining)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel( record.amount - record.claimed - record.claimable, record.token, )",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.amount, record.token)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.claimable, record.token)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.claimed, record.token)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.cliffAmount, record.token)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.refunded, record.token)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "amountLabel(record.vestedAtCancel, record.token)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "balanceMessage || \"Use a free test balance to explore the full flow.\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "block ? `Testnet block ${block.toLocaleString()}` : \"Reading the testnet…\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "brand.name",
+      "count": 18
+    },
+    {
+      "kind": "interpolation",
+      "expr": "brand.name.toUpperCase()",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "brand.tagline",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "busy ? \"Waiting for confirmation…\" : claimable > 0n ? \"Claim unlocked tokens\" : \"Nothing to claim yet\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "busy ? \"Waiting for your wallet…\" : !wallet.address ? \"Connect wallet to continue\" : !onNetwork ? \"Switch network & fund\" : \"Approve & fund schedule\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "cancelable ? \"Vested funds protected\" : \"Not allowed\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "claimableCount",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.deployedAt.slice(0, 10)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.schedulerAddress",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.testTokenAddress",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.tokenDecimals",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.tokenName",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "contracts.tokenSymbol",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "copied ? \"Link copied\" : \"Share schedule\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "createdIds.length === 1 ? \"\" : \"s\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(at)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(record.cancelledAt)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(record.cliff)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(record.end)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(record.start)",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(reviewed.cliff)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "dateLabel(reviewed.end)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "error",
+      "count": 6
+    },
+    {
+      "kind": "interpolation",
+      "expr": "error ? \"—\" : (count ?? \"—\")",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "error ? \"—\" : (escrow ?? \"—\")",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "formatUnits( reviewed.amounts[index], reviewed.token.decimals, )",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "formatUnits( reviewed.cliffAmounts.reduce( (sum, value) => sum + value, 0n, ), reviewed.token.decimals, )",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "formatUnits( reviewed.cliffAmounts[index], reviewed.token.decimals, )",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "formatUnits(unlocked, plan.token.decimals)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "i + 1",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "id",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "index + 1",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "isRecipient && isCreator ? \"Recipient & creator\" : isRecipient ? \"Recipient\" : isCreator ? \"Creator\" : \"Observer\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "lastRead",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "link.label",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "lookupError",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "message",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "minting ? \"Minting…\" : \"Mint 1,000 tUSD ↗\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "mode !== \"lock\" && startsNow ? \"When funding confirms\" : previewDate(mode === \"lock\" ? end : start)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "mode === \"airdrop\" ? \"Default cliff amount per recipient\" : \"Cliff unlock amount\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "mode === \"lock\" ? \"Unlock date\" : \"Start\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "mode === \"lock\" ? \"Unlocks at\" : \"Fully unlocked at\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "modeNames[Number(record.kind)]",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "modeNames[record.kind]",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "network.hex",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "network.id",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "network.name",
+      "count": 6
+    },
+    {
+      "kind": "interpolation",
+      "expr": "network.rpc",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "new Date().getFullYear()",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "newRecipient",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "notice",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "Number(record.kind) === 1 ? \"One complete unlock\" : `Every ${record.interval.toString()} seconds`",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "Number(record.kind) === 1 ? \"Unlock date\" : \"Baseline start\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "page + 1",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "pageCount",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "pageName",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "phase === \"complete\" ? \"Schedule funded successfully\" : phase === \"error\" ? \"Funding needs your attention\" : \"Funding your schedule\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "plan.token.symbol",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "position",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "previewAmount",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "previewDate(cliff)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "previewDate(end)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "product.description",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "product.name",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "product.short",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "product.tag",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "provider.name",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "q",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "readAt",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "recipientCount",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "recipientCount === 1 ? \"\" : \"s\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record?.cancelled ? \"Cancelled\" : \"Public record\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.cancelable ? \"Creator may stop future vesting\" : \"Cancellation not permitted\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.cancelable ? \"Vested tokens protected\" : \"Irrevocable\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.cancelled ? \"Cancelled\" : record.cancelable ? \"Cancelable\" : \"Irrevocable\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.cancelled ? \"This vested balance remains claimable after cancellation.\" : \"The recipient can claim unlocked tokens. The contract calculates the exact balance when the transaction executes.\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.cancelled ? progress(record).toFixed(1) + \"% vested at cancellation\" : progress(record).toFixed(1) + \"% unlocked\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.claimable > 0n ? \"Claim unlocked tokens\" : \"Nothing to claim yet\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.id.padStart(4, \"0\")",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.kind === 1 ? \"Unlocks\" : \"Starts\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.recipient",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.sender",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.token",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "record.token.symbol",
+      "count": 14
+    },
+    {
+      "kind": "interpolation",
+      "expr": "records.length",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "released",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed ? \"Reviewed\" : \"Draft\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.cancelable ? \"Unvested funds refundable; vested funds protected\" : \"Never\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.interval.toLocaleString()",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.recipients.length",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.recipients.length === 1 ? \"\" : \"s\"",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.recipients[0]",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.start === 0 ? \"When funding confirms\" : dateLabel(reviewed.start)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.token.address",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.token.symbol",
+      "count": 8
+    },
+    {
+      "kind": "interpolation",
+      "expr": "reviewed.totalLabel",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "role === \"received\" ? \"Allocations sent to this wallet will appear here. You can also open a public schedule using its ID above.\" : \"Choose a distribution model and fund an allocation. Every schedule you create will be tracked here.\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "role === \"received\" ? \"No received schedules yet\" : \"Create your first release\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "role === \"sent\" ? \"Created schedules\" : \"Received schedules\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "role === \"sent\" ? \"To\" : \"From\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "selectedType.title",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "shortAddress(role === \"sent\" ? record.recipient : record.sender)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "status(record)",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "step.detail",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "step.label",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "switching ? \"Waiting for your wallet…\" : \"Switch to Robinhood testnet\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "symbol",
+      "count": 6
+    },
+    {
+      "kind": "interpolation",
+      "expr": "title",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "token.decimals",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "token.symbol",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "tokenLoading ? \"Loading…\" : \"Load token\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "total",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "transferAddresses[record.id]",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "type.sub",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "type.title",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "unit.label",
+      "count": 4
+    },
+    {
+      "kind": "interpolation",
+      "expr": "visibleRecords.length",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.address",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.address ? \"Wallet connected\" : \"Connect your wallet\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.address ? \"Your wallet is your account. You control every transaction.\" : \"Choose your EVM wallet to fund schedules, claim tokens, or manage your allocations.\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.address ? shortAddress(wallet.address) : \"Connect wallet\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.connecting ? \"Connecting…\" : \"Connect ↗\"",
+      "count": 2
+    },
+    {
+      "kind": "interpolation",
+      "expr": "wallet.error",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`/create?mode=${activeMode}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`/create?mode=${product.id}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`/docs#${id}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`/lock/${id}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`/lock/${record.id}`",
+      "count": 4
+    },
+    {
+      "kind": "link",
+      "expr": "`${addressUrl(config.schedulerAddress)}?tab=contract`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`${network.explorer}/address/${config.schedulerAddress}?tab=contract`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`${network.explorer}/address/${record.token.address}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`${network.explorer}/address/${role === 'sent' ? record.recipient : record.sender}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`${network.explorer}/tx/${actionHash}`",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "`${network.explorer}/tx/${txHash}`",
+      "count": 4
+    },
+    {
+      "kind": "link",
+      "expr": "addressUrl(record.recipient)",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "addressUrl(record.sender)",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "addressUrl(record.token)",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "explorerContract(contracts.schedulerAddress)",
+      "count": 4
+    },
+    {
+      "kind": "link",
+      "expr": "explorerContract(contracts.testTokenAddress)",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "link.path",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "network.explorer",
+      "count": 2
+    },
+    {
+      "kind": "link",
+      "expr": "network.faucet",
+      "count": 4
+    },
+    {
+      "kind": "model",
+      "expr": "accepted",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "amount",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "batch",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cadence",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cancelable",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cliff",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cliffAmount",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cliffDelayUnit",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "cliffDelayValue",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "customAddress",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "durationUnit",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "durationValue",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "end",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "hasCliff",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "lookupId",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "newRecipient",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "position",
+      "count": 4
+    },
+    {
+      "kind": "model",
+      "expr": "publicId",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "recipient",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "search",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "start",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "startsNow",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "statusFilter",
+      "count": 2
+    },
+    {
+      "kind": "model",
+      "expr": "transferAddresses[record.id]",
+      "count": 2
+    }
+  ],
+  "events": [
+    {
+      "event": "click",
+      "handler": "(e) => { if (e.target === dialog) wallet.show = false; }",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act('cancel')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act('claim')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act('transfer')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act(record, 'cancel')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act(record, 'claim')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "act(record, 'transfer')",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "activeMode = product.id",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "applyCliffDelay",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "applyDuration",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "cancelledConfirmation = cancelledConfirmation === record.id ? null : record.id",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "cancelledConfirmation = null",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "clearFilters",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "confirmation = ''",
+      "count": 4
+    },
+    {
+      "event": "click",
+      "handler": "confirmation = 'cancel'",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "confirmation = 'transfer'",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "connectWallet(provider)",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "copy",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "copyLink",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "disconnectWallet",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "editSchedule",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "exportCsv",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "goToSection(step.id)",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "loadToken",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "menu = !menu",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "menu = false",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "mint",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "mode = type.id",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "page--",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "page++",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "position = 0",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "position = 100",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "position = 50",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "recipient = wallet.address",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "refresh",
+      "count": 4
+    },
+    {
+      "event": "click",
+      "handler": "refresh()",
+      "count": 8
+    },
+    {
+      "event": "click",
+      "handler": "role = 'received'",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "role = 'sent'",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "submit",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "switchNetwork",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "transferredConfirmation = null",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "transferredConfirmation = record.id",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "useCustom = false",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "useCustom = true",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "wallet.error = ''; wallet.show = true;",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "wallet.show = false",
+      "count": 2
+    },
+    {
+      "event": "click",
+      "handler": "wallet.show = true",
+      "count": 4
+    },
+    {
+      "event": "close",
+      "handler": "wallet.show = false",
+      "count": 2
+    },
+    {
+      "event": "input",
+      "handler": "transferredConfirmation = null",
+      "count": 2
+    },
+    {
+      "event": "keydown",
+      "handler": "menu = false",
+      "count": 2
+    },
+    {
+      "event": "keydown",
+      "handler": "tabKey",
+      "count": 2
+    },
+    {
+      "event": "submit",
+      "handler": "openPublicSchedule",
+      "count": 2
+    },
+    {
+      "event": "submit",
+      "handler": "openSchedule",
+      "count": 2
+    },
+    {
+      "event": "submit",
+      "handler": "review",
+      "count": 2
+    }
+  ],
+  "links": [
+    {
+      "kind": "href",
+      "target": "/documents/brand-kit.zip",
+      "count": 4
+    },
+    {
+      "kind": "href",
+      "target": "/documents/business-plan.pdf",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "/documents/contracts.md",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "/documents/MockUSD.sol",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "/documents/TokenSchedulesV2.sol",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "#main-content",
+      "count": 2
+    },
+    {
+      "kind": "href",
+      "target": "https://metamask.io/download/",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/#faq",
+      "count": 4
+    },
+    {
+      "kind": "to",
+      "target": "/create",
+      "count": 12
+    },
+    {
+      "kind": "to",
+      "target": "/docs",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/docs#contracts",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/docs#getting-started",
+      "count": 4
+    },
+    {
+      "kind": "to",
+      "target": "/docs#security",
+      "count": 2
+    },
+    {
+      "kind": "to",
+      "target": "/legal",
+      "count": 4
+    },
+    {
+      "kind": "to",
+      "target": "/locks",
+      "count": 8
+    },
+    {
+      "kind": "to",
+      "target": "/locks?role=sent",
+      "count": 2
+    }
+  ],
+  "assets": [],
+  "forms": [
+    {
+      "tag": "input",
+      "name": "",
+      "type": "",
+      "count": 16
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "checkbox",
+      "count": 6
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "datetime-local",
+      "count": 6
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "number",
+      "count": 4
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "range",
+      "count": 4
+    },
+    {
+      "tag": "input",
+      "name": "",
+      "type": "search",
+      "count": 2
+    },
+    {
+      "tag": "select",
+      "name": "",
+      "type": "",
+      "count": 10
+    },
+    {
+      "tag": "textarea",
+      "name": "",
+      "type": "",
+      "count": 2
+    }
+  ],
+  "i18n": [],
+  "i18nKeys": [],
+  "i18nFiles": [],
+  "api": [],
+  "env": []
+}

@@ -1,10 +1,14 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import { deployedMeta, deployedLinkTags } from "./src/config/meta.js";
+import {
+  deployedMeta,
+  deployedLinkTags,
+  structuredData,
+} from "./src/config/meta.js";
 
-// The Open Graph and Twitter card tags point at the deployed host. Injecting
-// them here keeps one source of truth for the domain and avoids hard-coding
-// absolute asset URLs in the local index.html.
+// The Open Graph, Twitter card and canonical tags point at the deployed host.
+// Injecting them here keeps one source of truth for the domain and avoids
+// hard-coding absolute asset URLs in the local index.html.
 const deployedMetaPlugin = () => ({
   name: "tranova-deployed-meta",
   transformIndexHtml() {
@@ -20,6 +24,12 @@ const deployedMetaPlugin = () => ({
           attrs,
           injectTo: "head",
         })),
+        {
+          tag: "script",
+          attrs: { type: "application/ld+json" },
+          children: JSON.stringify(structuredData),
+          injectTo: "head",
+        },
       ],
     };
   },

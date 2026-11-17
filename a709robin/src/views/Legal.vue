@@ -126,6 +126,18 @@ import { network } from "../composables/wallet";
         certification or a commitment to launch a financial product.
       </p>
 
+      <h2>Updates</h2>
+      <p>
+        Product updates and release notes are published on
+        <a
+          class="orb-inline-link"
+          :href="brand.xUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X at @{{ brand.handle }}</a
+        >. Follow there for deployment and maintenance notices.
+      </p>
+
       <h2>Read the rules before you sign</h2>
       <p>
         The

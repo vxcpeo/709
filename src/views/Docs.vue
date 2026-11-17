@@ -1,5 +1,6 @@
 <script setup>
 import OrbitGlyph from "../components/OrbitGlyph.vue";
+import XMark from "../components/XMark.vue";
 import { brand } from "../config/brand";
 import contracts from "../config/contracts.json";
 import { network } from "../composables/wallet";
@@ -377,6 +378,14 @@ const explorerContract = (address) =>
               ><span>Business plan · PDF</span><OrbitGlyph name="download" :size="17" /></a>
             <a class="orb-download" href="/documents/brand-kit.zip" download
               ><span>{{ brand.name }} brand kit</span><OrbitGlyph name="download" :size="17" /></a>
+            <a
+              class="orb-download"
+              :href="brand.xUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>{{ brand.name }} on X · @{{ brand.handle }}</span
+              ><XMark :size="17" /></a
+            >
             <RouterLink class="orb-download" to="/#faq"
               ><span>Common questions</span><OrbitGlyph name="arrow" :size="17" /></RouterLink>
           </div>
@@ -387,6 +396,16 @@ const explorerContract = (address) =>
               >testnet terms and privacy information</RouterLink
             >
             before using the app.
+          </p>
+          <p>
+            Release notes and status updates are published on
+            <a
+              class="orb-inline-link"
+              :href="brand.xUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              >X at @{{ brand.handle }}</a
+            >.
           </p>
         </section>
       </article>

@@ -4,6 +4,7 @@ import { useRoute } from "vue-router";
 import BrandMark from "./components/BrandMark.vue";
 import OrbitGlyph from "./components/OrbitGlyph.vue";
 import WalletModal from "./components/WalletModal.vue";
+import XMark from "./components/XMark.vue";
 import { brand } from "./config/brand";
 import {
   wallet,
@@ -115,6 +116,15 @@ watch(
       </div>
       <div class="orb-nav__extras">
         <a
+          :href="brand.xUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="orb-nav__link orb-nav__link--social"
+          :aria-label="`${brand.name} on X, @${brand.handle} (opens in a new tab)`"
+          ><XMark :size="14" />@{{ brand.handle }}
+          <OrbitGlyph name="external" :size="13"
+        /></a>
+        <a
           :href="network.explorer"
           target="_blank"
           rel="noopener noreferrer"
@@ -141,7 +151,15 @@ watch(
           ><span>{{ brand.tagline }}</span>
         </div>
         <div>
-          <RouterLink to="/legal"
+          <a
+            class="orb-baseplate__social"
+            :href="brand.xUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            :aria-label="`${brand.name} on X, @${brand.handle} (opens in a new tab)`"
+            ><XMark :size="14" />@{{ brand.handle }}</a
+          ><span class="orb-baseplate__slash">/</span
+          ><RouterLink to="/legal"
             >Terms & privacy <OrbitGlyph name="arrow" :size="12" /></RouterLink
           ><span>Independent of Robinhood.</span>
         </div>

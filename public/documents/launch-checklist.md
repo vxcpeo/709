@@ -1,6 +1,6 @@
 # Tranova — deployment and launch checklist
 
-Prepared 17 September 2026. This is an operational handoff for the **Robinhood Chain Testnet** release. It does not claim that `tranova.xyz` is owned, that `@tranova` is registered, or that the website has been published to either identifier.
+Prepared 17 September 2026. This is an operational handoff for the **Robinhood Chain Testnet** release. The site is now published at `https://www.tranova.site/` and the public X account is `https://x.com/TranovaSite`; both were verified on 17 November 2026. The `.xyz` / `@tranova` preparation record is retained as history.
 
 ## Current package and deployment facts
 
@@ -109,16 +109,14 @@ Preserve the existing security headers in that file. Do not replace it with this
 
 Use fresh, bounded test schedules. In the revised contract, a cancelable schedule can be canceled after starting; cancellation preserves already vested claims and refunds only unvested value. The recipient can still claim or transfer remaining entitlement after cancellation. Verify these rules against the exact address/ABI in the deployment manifest. Fully funded schedules and claims are public transactions even on testnet. Existing local and live smoke results in `contracts/deployments/` remain useful evidence, but a new hosting environment should also be checked for asset routing, HTTPS, wallet origin behavior and RPC access.
 
-## 4. Secure the matching domain and X identity
+## 4. Verify the live domain and X identity
 
-The prepared identity is **Tranova / tranova.xyz / @tranova**. Consult the current dated [name-availability.md](name-availability.md) record and its primary evidence before registration. Availability checks do not reserve or acquire either identifier.
+The public identity is **Tranova / www.tranova.site / @TranovaSite**. Both were verified on 17 November 2026: `https://www.tranova.site/` returned HTTP 200, `https://tranova.site/` redirected to the `www` host, and `https://x.com/TranovaSite` served the public profile whose bio links to the site. The earlier `.xyz` / `@tranova` record in [name-availability.md](name-availability.md) is retained as preparation evidence.
 
-- [ ] Verify registrar checkout availability and renewal price for `tranova.xyz`.
-- [ ] Recheck `@tranova` in the intended owner's legitimate X username-selection flow before acquisition. The official preflight is positive point-in-time evidence, not a reservation or a guarantee of final registration.
-- [ ] Secure both identifiers through the intended owner's accounts. Record owner, recovery contact, renewal date and access policy without putting credentials in this repository.
-- [ ] After domain ownership exists, add `tranova.xyz` under **Vercel Project → Settings → Domains**. Use the DNS records Vercel displays for that exact project; do not rely on a guessed historic A/CNAME value.
-- [ ] Wait for Vercel to confirm DNS and issue HTTPS. Choose the canonical apex or `www` hostname and configure the alternate to redirect.
-- [ ] Confirm the custom-domain site, deep links, downloads, canonical metadata and social-preview image.
+- [x] Confirm the custom-domain site, deep links, downloads, canonical metadata and social-preview image.
+- [x] Confirm the X profile is public, its bio links to the site, and the site footer and navigation link back to `https://x.com/TranovaSite`.
+- [ ] Record owner, recovery contact, renewal date and access policy without putting credentials in this repository.
+- [ ] Keep registrar and X account recovery with the intended owner.
 
 Do not point the domain at localhost. Domain ownership and a Vercel deployment are separate from contract deployment; publishing the frontend does not require redeploying the verified testnet contracts.
 

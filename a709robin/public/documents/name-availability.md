@@ -1,6 +1,8 @@
 # Tranova — selected identity
 
-**Tranova / tranova.xyz / @tranova** is the final prepared identity. Pronounced **tra-NO-va**, the name combines tranche releases with nova renewal: each allocation arrives as a named slice on its own visible date. The tagline is **Make timing accountable.** This is a product identity; no new token or ticker is introduced.
+> **Current status (17 November 2026):** the live public identity is **www.tranova.site** and **@TranovaSite**. This page preserves the 22 October 2026 availability check for `tranova.xyz` / `@tranova` as historical preparation evidence; those identifiers are not used by the live site.
+
+**Tranova / tranova.xyz / @tranova** was the final prepared identity at the time of this check. Pronounced **tra-NO-va**, the name combines tranche releases with nova renewal: each allocation arrives as a named slice on its own visible date. The tagline is **Make timing accountable.** This is a product identity; no new token or ticker is introduced.
 
 On **22 October 2026**, two point-in-time checks were run in a real Chrome browser (155.0.8059.85, DevTools Protocol). At **00:51:26 UTC+8 (16:51:26 UTC)** the CentralNic `.xyz` RDAP service returned a structured **HTTP 404** for `tranova.xyz`, i.e. no registration record. At **00:51:48 UTC+8 (16:51:48 UTC)**, `https://x.com/tranova` returned HTTP 404 and rendered X's “this page doesn't exist” state, so no public account uses the handle today. Screenshot evidence for both checks is in [the evidence folder](evidence/).
 

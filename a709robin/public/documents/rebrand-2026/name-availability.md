@@ -1,6 +1,10 @@
 # Tranova identity and availability record
 
-The prepared identity is **Tranova / tranova.xyz / @tranova**, pronounced **tra-NO-va**, with the tagline **Make timing accountable.** No domain, account or handle was registered by this work.
+# Tranova — name availability evidence (historical)
+
+> **Current status (17 November 2026):** the live public identity is **www.tranova.site** and **@TranovaSite**. This file preserves the 22 October 2026 checks for `tranova.xyz` / `@tranova` as evidence of that preparation step.
+
+The prepared identity at the time of this check was **Tranova / tranova.xyz / @tranova**, pronounced **tra-NO-va**, with the tagline **Make timing accountable.** No domain, account or handle was registered by this work.
 
 Tranova is a coined name formed from tranche releases and nova renewal: an allocation arrives as a named slice on its own visible date, and the next one follows. The previous identity's decision record and evidence are archived under `docs/history/pre-rebrand-2026-10-22/`, and the root `brand.txt` registry keeps the full lineage.
 
